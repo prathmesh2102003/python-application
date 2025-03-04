@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: python-app
-          image: prathmesh2102003/nodejs:64831304
+          image: prathmesh2102003/python-application:64831304
           ports:
             - containerPort: 3000
           env:
