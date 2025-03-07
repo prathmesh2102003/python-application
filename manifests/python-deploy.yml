@@ -16,7 +16,7 @@ spec:
         - name: gitlab-registry-secret
       containers:
         - name: python-app
-          image: registry.gitlab.com/test8042807/python-application:d842214f
+          image: registry.gitlab.com/test8042807/python-application:e87745af
           ports:
             - containerPort: 3000
           env:
