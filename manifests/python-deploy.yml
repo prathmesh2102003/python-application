@@ -12,6 +12,8 @@ spec:
       labels:
         app: python-app
     spec:
+      imagePullSecrets:
+        - name: gitlab-registry-secret
       containers:
         - name: python-app
           image: registry.gitlab.com/test8042807/python-application:d842214f
