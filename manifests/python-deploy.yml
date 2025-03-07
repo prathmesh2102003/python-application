@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: python-app
-          image: registry.gitlab.com/test8042807/python-application:f367332c
+          image: registry.gitlab.com/test8042807/python-application:d842214f
           ports:
             - containerPort: 3000
           env:
