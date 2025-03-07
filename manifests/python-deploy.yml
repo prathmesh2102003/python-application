@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: python-app
-          image: prathmesh2102003/python-application:6eaf12a2
+          image: registry.gitlab.com/test8042807/python-application:6eaf12a2
           ports:
             - containerPort: 3000
           env:
